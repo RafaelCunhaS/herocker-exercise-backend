@@ -9,7 +9,7 @@ jobs:
       - name: Instala dependências
         run: npm install
       - name: Roda ESlint
-        run: npm run lint
+        run: npx eslint .
   jest:
     runs-on: ubuntu-latest
     steps:
